@@ -1,1 +1,1 @@
-web: gunicorn weather.wsgi --log-file 
+ web: python weather.py runserver 0.0.0.0:$PORT
